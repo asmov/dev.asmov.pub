@@ -29,9 +29,6 @@ a:visited {
     font-weight: inherit;
 }
 
-body > header {
-}
-
 body > header > section.banner {
     display: flex;
 }
@@ -46,6 +43,10 @@ body > header > section.banner h1 {
     justify-content: center;
     font-size: 40px;
     color: yellow;
+}
+
+#navigation {
+    display: none;
 }
 
 #search {
@@ -115,6 +116,18 @@ article > section {
     padding: 6px 0 6px 0;
     border-bottom: 1px dashed gray;
 }
+article > section > blockquote p {
+    color: silver;
+    font-style: italic;
+}
+ 
+article > section > blockquote p::before {
+    content: "\201C"
+}
+
+article > section > blockquote p::after {
+    content: " ... \201D"
+}
 
 article > footer {
     font-size: 12px;
@@ -125,10 +138,6 @@ article > footer > img {
     max-height: 30px;
     border-radius: 50%;
     float: right;
-}
-
-#navigation {
-    display: none;
 }
 
 #topics {

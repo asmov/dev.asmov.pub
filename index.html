@@ -21,23 +21,23 @@
   <search id="search">
     <input type="text" />
   </search>
+  <nav id="navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li>
+        <a href="https://asmov.software">Asmov</a>
+        <ul>
+          <li>Asmov Common</li>
+          <li>Bak8</li>
+          <li>DirZ</li>
+          <li>Galacksi Orbit</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
 </header>
-<nav id="nav">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="#search">Search</a></li>
-    <li><a href="#topics">Topics</a></li>
-    <li>
-      <a href="https://asmov.software">Asmov</a>
-      <ul>
-        <li>Asmov Common</li>
-        <li>Bak8</li>
-        <li>DirZ</li>
-        <li>Galacksi Orbit</li>
-      </ul>
-    </li>
-  </ul>
-</nav>
 <main>
   <section id="articles">
     <article>
@@ -47,7 +47,9 @@
         <h2>This is a subheadline</h2>
       </header>
       <section>
-        <p>0123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789</p>
+        <blockquote cite="article/this-is-a-title.html">
+          <p>0123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789</p>
+        </blockquote>
       </section>
       <footer>
         <img class="author" alt="Roy Laurie" src="./images/team/roy-laurie.jpeg" />
@@ -86,6 +88,8 @@
       </footer>
     </article>
    </section>
+</main>
+<footer>
   <nav id="topics">
     <ul>
       <li><a href="topic/asmov-common.html">asmov-common</a></li>
@@ -95,8 +99,6 @@
       <li><a href="topic/galacksi-orbit.html">galacksi-orbit</a></li>
     </ul>
   </nav>
-</main>
-<footer>
   <div id="copyright">&copy; 2025 <a href="https://asmov.software">Asmov LLC</a></div>
 </footer>
 <script src="index.js"></script>

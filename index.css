@@ -15,18 +15,18 @@ a {
     color: lightgray;
     text-decoration: none;
     font-weight: bold;
+}
 
-    :hover {
-        color: inherit;
-        text-decoration: underline;
-        font-weight: inherit;
-    }
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-    :visited {
-        color: inherit;
-        text-decoration: inherit;
-        font-weight: inherit;
-    }
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
 }
 
 body > header {
@@ -70,6 +70,11 @@ article {
     max-width: 500px;
 }
 
+article:hover {
+    cursor: pointer;
+    border-color: yellow;
+}
+
 article > header {
     border-bottom: 1px dashed gray;
     text-align: right;
@@ -106,7 +111,6 @@ article > footer > img {
     float: right;
 }
 
-
 #search {
 
 }
@@ -127,6 +131,16 @@ article > footer > img {
 #topics > ul > li {
     margin: 0 1em 0 0;
 }
+
+#topics > ul > li a {
+    font-weight: bold;
+}
+
+#topics > ul > li a:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
 
 #copyright {
     margin: 10px 0 0 5px;

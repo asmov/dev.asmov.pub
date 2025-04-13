@@ -48,11 +48,7 @@ body > header > section.banner h1 {
     color: yellow;
 }
 
-body > header > search {
-    display: none;
-}
-
-body > nav {
+#search {
     display: none;
 }
 
@@ -67,10 +63,13 @@ article {
     border-radius: 10px;
     padding: 5px;
     margin: 5px 20px 20px 5px;
+}
+
+#articles article {
     max-width: 500px;
 }
 
-article:hover {
+#articles > article:hover {
     cursor: pointer;
     border-color: yellow;
 }
@@ -81,17 +80,34 @@ article > header {
 }
 
 article > header > h1 {
+    text-align: left;
 }
 
-article > header > p {
+article > header > h2 {
     font-size: 14px;
     margin: 3px 0 6px 0;
+    font-weight: normal;
+    text-align: left;
 }
 
 article > header > img {
+    float: right;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#articles > article > header > img {
     float: left;
     max-width: 40px;
     max-height: 40px;
+}
+
+#articles > article > header > h1 {
+    text-align: right;
+}
+
+#articles > article > header > h2 {
+    text-align: right;
 }
 
 article > section {
@@ -111,11 +127,8 @@ article > footer > img {
     float: right;
 }
 
-#search {
-
-}
-
-#nav {
+#navigation {
+    display: none;
 }
 
 #topics {

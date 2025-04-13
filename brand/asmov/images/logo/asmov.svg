@@ -1,0 +1,22 @@
+<!--
+asmov logo
+Copyright (c) 2024-2025 Asmov LLC
+All rights reserved.
+-->
+<svg
+    version="1.1" xmlns="http://www.w3.org/2000/svg"
+    width="520" height="520"
+    viewBox="0 0 520 520">
+<style>
+polygon {
+    fill: yellow;
+    stroke: black;
+    stroke-width: 20;
+}
+</style>
+
+
+<polygon class="fg" points="131,15 501,15 411,485" />
+<polygon class="fg" points="118,32 17,502 398,502" />
+
+</svg>

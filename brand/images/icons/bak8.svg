@@ -1,0 +1,77 @@
+<!--
+Bak8 Logo
+Copyright (C) 2025 Asmov LLC
+-->
+<svg
+    version="1.1" xmlns="http://www.w3.org/2000/svg"
+    width="800" height="800"
+    viewBox="0 0 800 800" >
+<style>
+    svg {
+        stroke: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        svg {
+            stroke: #9aa0a6;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        svg {
+            stroke: black;
+        }
+    }
+
+    .arrow {
+        fill: none;
+        stroke-width: 40;
+        stroke-linecap: round;    
+    }
+</style>
+<!--<defs>
+    <path id="arw" d="
+        M 25 125
+        h 740
+        m -100 -100
+        l 100 100 
+        l -100 100
+        "/>
+</defs>-->
+
+<path class="arrow" d="
+    M 25 295
+    h 740
+    m -100 -100
+    l 100 100 
+    l -100 100" />
+
+<path class="arrow" d="
+    M 775 495
+    h -740
+    m 100 100
+    l -100 -100 
+    l 100 -100" />
+
+<path class="arrow" d="
+    M 295 25
+    v 740
+    m -100 -100
+    l 100 100 
+    l 100 -100" />
+
+<path class="arrow" d="
+    M 295 25
+    v 740
+    m -100 -100
+    l 100 100 
+    l 100 -100" />
+
+<path class="arrow" d="
+    M 495 775
+    v -740
+    m -100 100
+    l 100 -100 
+    l 100 100" />
+
+</svg>

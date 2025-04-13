@@ -1,0 +1,46 @@
+<!--
+dirz logo
+Copyright (c) 2025 Asmov LLC
+-->
+<svg
+    version="1.1" xmlns="http://www.w3.org/2000/svg"
+    width="800" height="800"
+    viewBox="0 0 800 800" >
+<style>
+    svg {
+        stroke: black;
+        fill: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        svg {
+            stroke: #9aa0a6;
+            fill: #9aa0a6;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        svg {
+            stroke: black;
+            fill: black;
+        }
+    }
+
+    rect.folder {
+        fill: none;
+        stroke-width: 40;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    text.z {
+        stroke: none;
+        font-family: sans-serif;
+        font-size: 600px;
+    }
+</style>
+
+<rect class="folder" x="25" y="100" width="750" height="600" />
+<text class="z" x="225" y="600">Z</text>
+
+</svg>
